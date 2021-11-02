@@ -1,0 +1,98 @@
+@font-face {
+    font-family: sans-bold;
+    src: url('../font/sans/GoogleSans-Bold.ttf');
+}
+@font-face {
+    font-family: sans-medium;
+    src: url('../font/sans/GoogleSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: sans-regular;
+    src: url('../font/sans/GoogleSans-Regular.ttf');
+}
+
+html,
+body,
+header,
+
+#intro {
+	background: url("../img/back.png") no-repeat center center ;
+	display: flexl;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover;
+}
+
+.title {
+	color: #ffffff;
+	font-size: 500%;
+	font-family: sans-bold;
+}
+
+.subtitle {
+	color: #ffffff;
+	font-size: 150%;
+	font-family: sans-regular;
+}
+
+.section-text-bold{
+  color: #485460;
+  font-family: sans-bold;
+}
+
+.section-text-medium{
+  color: #485460;
+  font-family: sans-medium;
+  font-size: 95%;
+}
+
+.section-text-normal{
+  color: #485460;
+  font-family: sans-regular;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 544px) {  
+  .section-text-normal {
+	  font-size:1.2rem; 
+	  color: #485460;
+	  font-family: sans-regular;
+	  }
+}
+
+.icon{
+	color:#485460;
+	margin-right: 0.5rem;
+}
+
+
+.fa {
+	font-size: 1.5rem !important;
+	vertical-align: middle;
+}
+
+.btn  {
+	background-color: #3b87b2 !important;
+}
+
+.btn-title {
+	color: #ffffff;
+	font-size: 130%;
+	font-family: sans-medium;
+	text-transform: none;
+}
+
+.btn-subtitle {
+	color: #ffffff;
+	font-size: 110%;
+	font-family: sans-regular;
+	text-transform: none;
+}
+
+.page-footer{
+  background-color:#295264 !important;
+}
+
